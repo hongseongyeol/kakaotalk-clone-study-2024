@@ -5,6 +5,7 @@
     top: 0;
     box-sizing: border-box;
     justify-content: space-center;
+    color: #505050;
 }
 
 .status-bar__column{

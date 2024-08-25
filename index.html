@@ -4,14 +4,14 @@
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Kokoa Talk</title>
+    <title>Welcome to <span>Green</span> Talk</title>
 </head>
 <body>
 
     <div class="status-bar">
         <div class="status-bar__column">
             <span>South Korea</span>
-            <i class="fa-solid fa-wifi"></i>
+            <i class="fa-regular fa-sun"></i>
               
         </div>
         <div class="status-bar__column">
@@ -19,24 +19,30 @@
         </div>
         <div class="status-bar__column">
             <span>100%</span>
-            <i class="fa-solid fa-battery-full"></i>
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
 
     <div>
         <header class="welcome-header">
-            <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+            <h1 class="welcome-header__title">Welcome to GreenTalk</h1>
             <p class="welcome-header__text"></p>
         </header>
     </div>
 
-    <form action="friends.html" method="get" id="login-form">
-        <input name="username" required="number, Email" type="text"/><label class="username_label">Email or phone number</label>
-        <input name="password" type="password" placeholder="Password" />
-        <input type="submit" value="Log in" />
-        <a href="#">Find kokoa Account or Password</a>
-    </form>
+    <form class="login-form">
+        <span class="input-span">
+          <label for="email" class="label">Email or Phone number</label>
+          <input type="email" name="email" id="email"
+        /></span>
+        <span class="input-span">
+          <label for="password" class="label">Password</label>
+          <input type="password" name="password" id="password"
+        /></span>
+        <span class="span"><a href="#">Forgot password?</a></span>
+        <input class="submit" type="submit" value="Log in" />
+        <span class="span">Don't have an account? <a href="#">Sign up</a></span>
+      </form>
 
     <div id="no-mobile">
         <span>Your screen is too big</span>
