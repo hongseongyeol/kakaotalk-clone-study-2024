@@ -27,12 +27,12 @@
     <div>
         <header class="welcome-header">
             <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
-            <p class="welcome-header__text">If you have a Kokoa Account, log in with email or phone number.</p>
+            <p class="welcome-header__text"></p>
         </header>
     </div>
 
     <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number" />
+        <input name="username" required="number, Email" type="text"/><label class="username_label">Email or phone number</label>
         <input name="password" type="password" placeholder="Password" />
         <input type="submit" value="Log in" />
         <a href="#">Find kokoa Account or Password</a>

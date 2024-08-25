@@ -27,45 +27,58 @@ body{
 #login-form{
     display: flex;
     flex-direction: column;
-    margin: 0px 30px;
+    gap: 7px;
+    position: relative;
+    color: white;
+}
+
+#login-form .username_label {
+    font-size: 15px;
+    padding-left: 10px;
+    position: absolute;
+    top: 13px;
+    transition: 0.3s;
+    pointer-events: none;
 }
 
 #login-form input{
+    width: 200px;
+    height: 45px;
     border: none;
-    padding: 15px 0px;
-    font-size: 18px;
-    border-bottom: var(--main-border);
-    margin-bottom: 25px;
-    transition: border-color 0.3s ease-in-out;
+    outline: none;
+    padding: 0px 7px;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    background-color: transparent;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4);
 }
 
-#login-form input:not([type="submit"]){
-    border-bottom: var(--main-border);
-    transition: border-color 0.3s ease-in-out;
-}
+.input:focus {
+    border: 2px solid transparent;
+    color: #fff;
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 10px rgba(0,0,0,1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+  }
+  
+   #login-form .input:valid ~ .username_label,
+   #login-form .input:focus ~ .username_label {
+    transition: 0.3s;
+    padding-left: 2px;
+    transform: translateY(-35px);
+  }
+  
+   #login-form .input:valid,
+   #login-form .input:focus {
+    box-shadow: 3px 3px 10px rgba(0,0,0,1),
+    -1px -1px 6px rgba(255, 255, 255, 0.4),
+    inset 3px 3px 10px rgba(0,0,0,1),
+    inset -1px -1px 6px rgba(255, 255, 255, 0.4);
+  }
 
-#login-form input ::placeholder{
-color: var(--color-gray);
-}
-
-#login-form input:focus{
-    border-color:var(--yellow);
-}
-
-#login-form input[type="submit"]{
-    background-color:var(--yellow);
-    cursor: pointer;
-    padding: 20px 0px;
-    border-radius: 5px;
-}
-
-#login-form a{
-    text-align: center;
-    text-decoration: none;
-    color:inherit ;
-    font-size: 13px;
-}
-
-.main-screen{
+  .main-screen{
     padding: 0px var(--horizontal-space);
 }
