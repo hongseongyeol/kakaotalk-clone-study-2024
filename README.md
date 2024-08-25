@@ -2,6 +2,8 @@
 
     Course (https://nomadcoders.co/)
 
+    The more we chatting, the more trees grow
+
     Project conducted to learn the basics of html and css(24.05 ~ 24.06)
 
     icon - fontawesome

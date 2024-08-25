@@ -85,9 +85,9 @@ body{
     font-size: 0.9rem;
   }
   
-  .form .submit:hover {
+  .login-form .submit:hover {
     background-color: var(--clr);
-    color: var(--bg-dark);
+    color: white;
   }
   
   .span {
@@ -101,8 +101,4 @@ body{
 
 .main-screen {
     padding: 0px var(--horizontal-space);
-}
-
-.title span{
-    color: #58bc82;
 }
