@@ -27,7 +27,7 @@
 
 .user-component__subtitle{
     margin-top: 5px;
-    color: var(--color-gray);
+    color: white;
 }
 
 .user-component__avatar--xl{
@@ -59,6 +59,7 @@
 }
 
 .user-component__time{
+    color: white;
     margin-bottom: 10px;
     display: block;
 }
