@@ -1,5 +1,14 @@
 .badge{
+    display: inline-block;
     color: white;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.badge::before{
+    content: '1';
+    position: absolute;
 }
 
 .badge i{
