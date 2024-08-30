@@ -1,26 +1,16 @@
 .badge{
     display: inline-block;
     color: white;
-    position: relative;
-    justify-content: center;
-    align-items: center;
 }
 
-.badge::before{
-    content: '1';
+.badge i{
     position: absolute;
+}
+
+.badge span{
+    position: relative;
 }
 
 .badge i{
     color: #418FDE;
-}
-
-.reddot{
-    background-color: tomato;
-    width: 5px;
-    height: 5px;
-    border-radius: 10px;
-    position: absolute;
-    top: -7px;
-    right: -3px;
 }
