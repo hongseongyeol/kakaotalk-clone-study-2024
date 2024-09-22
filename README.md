@@ -2,13 +2,9 @@
 
     Course (https://nomadcoders.co/kokoa-clone/lobby)
 
-    The more we chatting, the more trees grow
-
     Project conducted to learn the basics of html and css(24.05 ~ 24.06)
 
     icon - fontawesome
     loginform Reference - universe.io
 
-2024.06(original end)
-
-2024.08.25 (design update start)
+2024.06(End)
