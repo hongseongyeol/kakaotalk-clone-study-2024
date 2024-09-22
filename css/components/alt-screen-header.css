@@ -7,11 +7,13 @@
 }
 
 .alt-header__title {
+    color: #58BC82;
     font-size: 32px;
     font-weight: 600;
 }
 
 .alt-header__column:first-child {
+    color: white;
     margin-right: auto;
 }
 
@@ -27,6 +29,7 @@
 }
 
 .alt-header__column:last-child {
+    color: white;
     margin-left: auto;
 }
 

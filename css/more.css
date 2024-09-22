@@ -10,10 +10,15 @@
 
 .more-suggestions__title {
     margin-bottom: 30px;
+    color: white;
 }
 
 .more-suggestions__icons {
     display: flex;
+}
+
+.more-suggestions__icon-text{
+    color: white;
 }
 
 .more-suggestions__icon {
